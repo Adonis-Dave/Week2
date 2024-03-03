@@ -1,0 +1,101 @@
+/* ---------GENERAL STYLING-------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* ---------BODY STYLING------- */
+
+body {
+    background: linear-gradient(to bottom left, #e648dee5, #26a4c4);
+}
+
+
+
+
+/* ----------HOME SECTION-------------- */
+
+
+#home h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.home-img {
+    height: 100vh;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+#home span,
+p {
+    font-size: 1.5rem;
+}
+
+/* ________END__________ */
+
+
+
+
+
+
+/* --------GALLERY STYLING--------- */
+
+#gallery h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+}
+
+.img-section {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.gallery-img {
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+/* __________END_________ */
+
+
+
+
+
+/* ------------MENU STYLING---------- */
+
+#menu h1 {
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.menu-grid {
+    margin: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    list-style: decimal;
+
+}
+
+
+li a {
+    font-size: 1.5rem;
+    color: black;
+}
